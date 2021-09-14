@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.header {
+  background-image: url("gradient.png");
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  margin: 0 5%;
+  height: 100px;
+}
+
+.header .headerpic {
+  float: left;
+  height: 100%;
+}
+
+.header .headertext {
+  float: left;
+  font-size: 50px;
+  padding: 25px 0px 0px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.middle {
+  background: lightgray;
+  margin: 0 5%;
+}
+
+.tableboxpadding td {
+  padding: 10px;
+}
+
+.navigation {
+  float: right;
+  margin: 10px;
+  width: 125px;
+  list-style-type: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.navigation a {
+  display: block;
+  padding: 10px 10px;
+  background-color: #3DF;
+  color: black;
+  text-decoration: none;
+  border: 1px black solid;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.navigation a:hover {
+  background-color: #BAEFFF;
+}
+
+.navigation a span {
+  position: relative;
+  float: right;
+  right: 10px;
+  top: -3px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.navigation a:hover span{
+  right: 0;
+  opacity: 1;
+}
+
+.footer {
+  background-image: url("gradient_flipped.png");
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  height: 100px;
+  margin: 0 5%;
+}
+
+.footer .footertext{
+  font-size: 20px;
+  padding: 75px 0 0 0;
+  float: right;
+}
+
+/*general button properties*/
+.animatebutton {
+  border-radius: 100px;
+  background-color: #BAEFFF;
+  border: 3px black solid;
+  color: black;
+  text-align: center;
+  font-size 20px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px
+}
+
+/*apply to all spans inside animatebutton*/
+.animatebutton span {
+  position: relative;
+  transition: 0.5s;
+}
+
+/*properties applied to all spans inside animatebutton on hover*/
+.animatebutton:hover span {
+  padding-left: 25px;
+}
+
+/*things tacked onto the front of all spans inside animatebutton*/
+.animatebutton span:before {
+  content: '\1f3e0';
+  position: absolute;
+  opacity: 0;
+  left: 0px;
+  top: -3px;
+  transition: 0.5s;
+}
+
+/*properties applied to all things tacked onto the front of all spans inside animatebutton on hover*/
+.animatebutton:hover span:before {
+  opacity: 1;
+  left: 20;
+}
+</style>
+<title>
+Learning Java
+</title>
+<link rel="shortcut icon" href="butterflyflower.ico"/>
+</head>
+<body bgcolor="#BAEFFF">
+
+<div class="header" id="home">
+ <div class="headerpic"><img src="butterflyflower.ico" height="100%"></div>
+ <div class="headertext">Learning Java</div>
+</div>
+
+<div class="middle">
+
+<div>
+<form method="back" action="index.htm">
+  <button class="animatebutton"><span>Home</span></button><br>
+</form>
+</div>
+
+<h3 style="padding:0 10px">Free Java Practice Problems:</h3>
+<a href="https://codingbat.com/java" style="padding:0 10px">Coding Bat</a><br>
+<text style="padding:0 10px">Make an account with email and password.</text><br>
+<text style="padding:0 10px">Attempt practice problems with many test cases.</text><br>
+<text style="padding:0 10px">See solutions to problems.</text><br>
+<text style="padding:0 10px">ALL FOR FREE!!</text><br>
+
+<h3 style="padding:0 10px">My Content:</h3>
+
+<text style="padding:0 10px">Solutions are available, but you will not learn by cheating.</text>
+<table class="tableboxpadding" border="1px solid black" style="margin:0 10px">
+  <tr>
+    <th>Lesson</th>
+    <th>Example Code</th>
+    <th>Labs</th>
+    <th>Lab Solutions</th>
+    <th>Projects</th>
+    <th>Project Solutions</th>
+  </tr>
+  <tr>
+    <td>
+	  Lesson 1:<br>
+	  Main Method &<br>
+	  Console Output
+	</td>
+	<td>
+	  <a href="FirstClass.java">FirstClass.java</a><br>
+	  <a href="MorePrinting.java">MorePrinting.java</a>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab01A.docx">Lab01A.docx</a><br>
+	  <a href="Lab01B.docx">Lab01B.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab01A.java">Lab01A.java</a><br>
+	  <a href="Lab01B.java">Lab01B.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab01ASln.java">Lab01ASln.java</a><br>
+	  <a href="Lab01BSln.java">Lab01BSln.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project01A.docx">Project01A.docx</a><br>
+	  Project:<br>
+	  <a href="Project01A.java">Project01A.java</a><br>
+	</td>
+	<td>
+	  <a href="Project01ASln.java">Project01ASln.java</a><br>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 2:<br>
+	  Variables
+	</td>
+	<td>
+	  <a href="DeclarationAndInstantiation.java">DeclarationAndInstantiation.java</a><br>
+	  <a href="PrintingVariables.java">PrintingVariables.java</a><br>
+	  <a href="VariableMath.java">VariableMath.java</a>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab02A.docx">Lab02A.docx</a><br>
+	  <a href="Lab02B.docx">Lab02B.docx</a><br>
+	  <a href="Lab02C.docx">Lab02C.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab02A.java">Lab02A.java</a><br>
+	  <a href="Lab02B.java">Lab02B.java</a><br>
+	  <a href="Lab02C.java">Lab02C.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab02ASln.java">Lab02ASln.java</a><br>
+	  <a href="Lab02BSln.java">Lab02BSln.java</a><br>
+	  <a href="Lab02CSln.java">Lab02CSln.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project02A.docx">Project02A.docx</a><br>
+	  Project:<br>
+	  <a href="Project02A.java">Project02A.java</a><br>
+	</td>
+	<td>
+	  <a href="Project02ASln.java">Project02ASln.java</a><br>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 3:<br>
+	  Input From Console
+	</td>
+	<td>
+	  <a href="ScannerInput.java">ScannerInput.java</a><br>
+	  <a href="MoreScanner.java">MoreScanner.java</a>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab03A.docx">Lab03A.docx</a><br>
+	  <a href="Lab03B.docx">Lab03B.docx</a><br>
+	  <a href="Lab03C.docx">Lab03C.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab03A.java">Lab03A.java</a><br>
+	  <a href="Lab03B.java">Lab03B.java</a><br>
+	  <a href="Lab03C.java">Lab03C.java</a><br>
+	  </td>
+	<td>
+	  <a href="Lab03ASln.java">Lab03ASln.java</a><br>
+	  <a href="Lab03BSln.java">Lab03BSln.java</a><br>
+	  <a href="Lab03CSln.java">Lab03CSln.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project03A.docx">Project03A.docx</a><br>
+	  Project:<br>
+	  <a href="Project03A.java">Project03A.java</a><br>
+	</td>
+	<td>
+	  <a href="Project03ASln.java">Project03ASln.java</a><br>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 4:<br>
+	  Conditional Statements
+	</td>
+	<td>
+	  <a href="IfStatements.java">IfStatements.java</a><br>
+	  <a href="ElseStatements.java">ElseStatements.java</a><br>
+	  <a href="ElseIfStatements.java">ElseIfStatements.java</a><br>
+	  <a href="NestedConditionals.java">NestedConditionals.java</a><br>
+	  <a href="MultipleConditions.java">MultipleConditions.java</a><br>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab04A.docx">Lab04A.docx</a><br>
+	  <a href="Lab04B.docx">Lab04B.docx</a><br>
+	  <a href="Lab04C.docx">Lab04C.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab04A.java">Lab04A.java</a><br>
+	  <a href="Lab04B.java">Lab04B.java</a><br>
+	  <a href="Lab04C.java">Lab04C.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab04ASln.java">Lab04ASln.java</a><br>
+	  <a href="Lab04BSln.java">Lab04BSln.java</a><br>
+	  <a href="Lab04BSlnBonus.java">Lab04BSlnBonus.java</a><br>
+	  <a href="Lab04CSln.java">Lab04CSln.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project04A.docx">Project04A.docx</a><br>
+	  Project:<br>
+	  <a href="Project04A.java">Project04A.java</a><br>
+	</td>
+	<td>
+	  <a href="Project04ASln.java">Project04ASln.java</a><br>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 5:<br>
+	  Arrays
+	</td>
+	<td>
+	  <a href="CreatingArrays.java">CreatingArrays.java</a><br>
+	  <a href="ArrayValues.java">ArrayValues.java</a><br>
+	  <a href="UsefulArrayStuff.java">UsefulArrayStuff.java</a><br>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab05A.docx">Lab05A.docx</a><br>
+	  <a href="Lab05B.docx">Lab05B.docx</a><br>
+	  <a href="Lab05C.docx">Lab05C.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab05A.java">Lab05A.java</a><br>
+	  <a href="Lab05B.java">Lab05B.java</a><br>
+	  <a href="Lab05C.java">Lab05C.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab05ASln.java">Lab05ASln.java</a><br>
+	  <a href="Lab05BSln.java">Lab05BSln.java</a><br>
+	  <a href="Lab05CSln.java">Lab05CSln.java</a><br>
+	</td>
+	<td>
+	  Project Combined<br>
+	  with Lesson 6<br>
+	</td>
+	<td>
+	  
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 6:<br>
+	  Loops
+	</td>
+	<td>
+	  <a href="WhileLoops.java">WhileLoops.java</a><br>
+	  <a href="ForLoops.java">ForLoops.java</a><br>
+	  <a href="ForEachLoops.java">ForEachLoops.java</a><br>
+	  <a href="NestedLoops.java">NestedLoops.java</a><br>
+	  <a href="RandomNumbers.java">RandomNumbers.java</a><br>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab06A.docx">Lab06A.docx</a><br>
+	  <a href="Lab06B.docx">Lab06B.docx</a><br>
+	  <a href="Lab06C.docx">Lab06C.docx</a><br>
+	  <a href="Lab06D.docx">Lab06D.docx</a><br>
+	  <a href="Lab06E.docx">Lab06E.docx</a><br>
+	  <a href="Lab06F.docx">Lab06F.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab06A.java">Lab06A.java</a><br>
+	  <a href="Lab06B.java">Lab06B.java</a><br>
+	  <a href="Lab06C.java">Lab06C.java</a><br>
+	  <a href="Lab06D.java">Lab06D.java</a><br>
+	  <a href="Lab06E.java">Lab06E.java</a><br>
+	  <a href="Lab06F.java">Lab06F.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab06ASln.java">Lab06ASln.java</a><br>
+	  <a href="Lab06BSln.java">Lab06BSln.java</a><br>
+	  <a href="Lab06CSln.java">Lab06CSln.java</a><br>
+	  <a href="Lab06DSln.java">Lab06DSln.java</a><br>
+	  <a href="Lab06ESln.java">Lab06ESln.java</a><br>
+	  <a href="Lab06FSln.java">Lab06FSln.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project06A.docx">Project06A.docx</a><br>
+	  <a href="Project06B.docx">Project06B.docx</a><br>
+	  Project:<br>
+	  <a href="Project06A.java">Project06A.java</a><br>
+	  <a href="Project06B.java">Project06B.java</a><br>
+	</td>
+	<td>
+	  <a href="Project06ASln.java">Project06ASln.java</a><br>
+	  <a href="Project06BSln.java">Project06BSln.java</a><br>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 7:<br>
+	  Methods
+	</td>
+	<td>
+	  <a href="VoidMethods.java">VoidMethods.java</a><br>
+	  <a href="MethodsWithParameters.java">MethodsWithParameters.java</a><br>
+	  <a href="ReturnTypes.java">ReturnTypes.java</a><br>
+	  <a href="CallingMethodsFromEachother.java">CallingMethodsFromEachother.java</a><br>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab07A.docx">Lab07A.docx</a><br>
+	  <a href="Lab07B.docx">Lab07B.docx</a><br>
+	  <a href="Lab07C.docx">Lab07C.docx</a><br>
+	  <a href="Lab07D.docx">Lab07D.docx</a><br>
+	  <a href="Lab07E.docx">Lab07E.docx</a><br>
+	  Lab:<br>
+	  <a href="Lab07A.java">Lab07A.java</a><br>
+	  <a href="Lab07B.java">Lab07B.java</a><br>
+	  <a href="Lab07C.java">Lab07C.java</a><br>
+	  <a href="Lab07D.java">Lab07D.java</a><br>
+	  <a href="Lab07E.java">Lab07E.java</a><br>
+	</td>
+	<td>
+	  <a href="Lab07ASln.java">Lab07ASln.java</a><br>
+	  <a href="Lab07BSln.java">Lab07BSln.java</a><br>
+	  <a href="Lab07CSln.java">Lab07CSln.java</a><br>
+	  <a href="Lab07DSln.java">Lab07DSln.java</a><br>
+	  <a href="Lab07ESln.java">Lab07ESln.java</a><br>
+	</td>
+	<td>
+	  Project Combined<br>
+	  with Lesson 8<br>
+	</td>
+	<td>
+	  
+	</td>
+  </tr>
+  <tr>
+	<td>
+	  Lesson 8:<br>
+	  Objects and Classes
+	</td>
+	<td>
+	  <a href="NewObjectsAndClasses.java">NewObjectsAndClasses.java</a><br>
+	  <a href="Dog.java">Dog.java</a><br>
+	  <a href="ClassConstructors.java">ClassConstructors.java</a><br>
+	  <a href="Giraffe.java">Giraffe.java</a><br>
+	  <a href="PrivateVariablesAndMethods.java">PrivateVariablesAndMethods.java</a><br>
+	  <a href="Cat.java">Cat.java</a><br>
+	</td>
+    <td>
+	  Instructions:<br>
+	  <a href="Lab08A.docx">Lab08A.docx</a><br>
+	  <a href="Lab08B.docx">Lab08B.docx</a><br>
+	  <a href="Lab08C.docx">Lab08C.docx</a><br>
+	  Lab files will<br>
+	  be made by you.
+	</td>
+	<td>
+	  <a href="Lab08ABCSln.java">Lab08ABCSln.java</a><br>
+	  <a href="Student.java">Student.java</a><br>
+	</td>
+	<td>
+	  Instructions:<br>
+	  <a href="Project08A.docx">Project08A.docx</a><br>
+	  Project:<br>
+	  <a href="Project08A.java">Project08A.java</a><br>
+	</td>
+	<td>
+	  <a href="Project08ASln.java">Project08ASln.java</a><br>
+	  <a href="Person.java">Person.java</a><br>
+	</td>
+  </tr>
+</table>
+<br>
+</div>
+</body>
