@@ -1,225 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
-.header {
-  background-image: url("gradient.png");
-  background-repeat: repeat-x;
-  background-size: 100% 100%;
-  margin: 0 5%;
-  height: 100px;
-}
-
-.header .headerpic {
-  float: left;
-  height: 100%;
-}
-
-.header .headertext {
-  float: left;
-  font-size: 50px;
-  padding: 25px 0px 0px;
-  font-family: Impact, Charcoal, sans-serif;
-}
-
-.middle {
-  background: lightgray;
-  margin: 0 5%;
-}
-
-.navigation {
-  float: right;
-  margin: 10px;
-  width: 125px;
-  list-style-type: none;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px;
-}
-
-.navigation a {
-  display: block;
-  padding: 10px 10px;
-  background-color: #3DF;
-  color: black;
-  text-decoration: none;
-  border: 1px black solid;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-
-.navigation a:hover {
-  background-color: #BAEFFF;
-}
-
-.navigation a span {
-  position: relative;
-  float: right;
-  right: 10px;
-  top: -3px;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.navigation a:hover span{
-  right: 0;
-  opacity: 1;
-}
-
-.footer {
-  background-image: url("gradient_flipped.png");
-  background-repeat: repeat-x;
-  background-size: 100% 100%;
-  height: 100px;
-  margin: 0 5%;
-}
-
-.footer .footertext{
-  font-size: 20px;
-  padding: 75px 0 0 0;
-  float: right;
-}
-
-/*general button properties*/
-.animatebutton {
-  border-radius: 100px;
-  background-color: #BAEFFF;
-  border: 3px black solid;
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  margin: 10px
-}
-
-/*apply to all spans inside animatebutton*/
-.animatebutton span {
-  position: relative;
-  transition: 0.5s;
-}
-
-/*properties applied to all spans inside animatebutton on hover*/
-.animatebutton:hover span {
-  padding-left: 25px;
-}
-
-/*things tacked onto the front of all spans inside animatebutton*/
-.animatebutton span:before {
-  content: '\1F98B';
-  position: absolute;
-  opacity: 0;
-  left: 0px;
-  top: -3px;
-  transition: 0.5s;
-}
-
-/*properties applied to all things tacked onto the front of all spans inside animatebutton on hover*/
-.animatebutton:hover span:before {
-  opacity: 1;
-  left: 20;
-}
-</style>
-<title>
-Photo Viewer Reborn
-</title>
-<link rel="shortcut icon" href="butterflyflower.ico"/>
+	<link rel="stylesheet" href="photoviewerreborn.css">
+  <title>Photo Viewer Reborn</title>
+  <link rel="shortcut icon" href="../icons/butterflyflower.ico"/>
 </head>
-<body bgcolor="#BAEFFF">
+<body class="bodycolor">
 
-<div class="header" id="home">
- <div class="headerpic"><img src="butterflyflower.ico" height="100%"></div>
- <div class="headertext">Photo Viewer Reborn</div>
-</div>
+  <div class="header" id="home">
+		<div class="headerpic"><img src="../icons/butterflyflower.ico" height="100%"></div>
+		<div class="headertext">Photo Viewer Reborn</div>
+  </div>
 
-<div class="middle">
+	<div class="middle">
 
-<ul class="navigation">
-  <li><a href="#home">Home<span>&#127968</span></a></li>
-  <li><a href="#download">Download<span>&#9196</span></a></li>
-  <li><a href="#tutorial">Tutorial<span>&#128214</span></a></li>
-</ul>
+		<ul class="navigation">
+			<li><a href="#home">Home<span>&#127968</span></a></li>
+			<li><a href="#download">Download<span>&#9196</span></a></li>
+			<li><a href="#tutorial">Tutorial<span>&#128214</span></a></li>
+		</ul>
 
-<img src="defaultwindow.png" width="50%" style="padding:0 10px"><br>
-<div style="margin: 20px">
-<p id="download">Back to the good old days of photo viewing!</p>
-<form method="get" action="PhotoViewerReborn.exe">
-  <button class="animatebutton"><span>Download</span></button><br>
-</form>
-</div>
-<iframe style="margin:0 10px" id="tutorial" src="https://www.youtube.com/embed/qtghzovnKQw" frameborder="5px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 style="padding:0 10px">Buttons:</h3>
-<img src="buttons.png" width="50%" style="padding:0 10px"><br>
+		<img src="defaultwindow.png" width="50%" style="padding:0 10px"><br>
+		<div style="margin: 20px">
+			<p id="download">Back to the good old days of photo viewing!</p>
+			<form method="get" action="PhotoViewerReborn.exe">
+				<button class="animatebutton"><span>Download</span></button><br>
+			</form>
+		</div>
 
-<h3 style="padding:0 10px">Keyboard Shortcuts:</h3>
-<table border="1px solid black" style="margin:0 10px">
-  <tr>
-    <th>Function</th>
-    <th>Shortcut</th>
-  </tr>
-  <tr>
-    <td>Previous Image</td>
-    <td>Left Arrow</td>
-  </tr>
-  <tr>
-    <td>Next Image</td>
-    <td>Right Arrow</td>
-  </tr>
-  <tr>
-    <td>Open</td>
-    <td>Ctrl + O</td>
-  </tr>
-  <tr>
-    <td>Save</td>
-    <td>Ctrl + S</td>
-  </tr>
-  <tr>
-    <td>Exit</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>Reset Zoom</td>
-    <td>R</td>
-  </tr>
-  <tr>
-    <td>Translate Up</td>
-    <td>W</td>
-  </tr>
-  <tr>
-    <td>Translate Left</td>
-    <td>A</td>
-  </tr>
-  <tr>
-    <td>Translate Down</td>
-    <td>S</td>
-  </tr>
-  <tr>
-    <td>Translate Right</td>
-    <td>D</td>
-  </tr>
-  <tr>
-    <td>Flip Horizontally</td>
-    <td>K</td>
-  </tr>
-  <tr>
-    <td>Flip Vertically</td>
-    <td>I</td>
-  </tr>
-  <tr>
-    <td>Rotate Left</td>
-    <td>J</td>
-  </tr>
-  <tr>
-    <td>Rotate Right</td>
-    <td>L</td>
-  </tr>
-</table>
-<br>
+		<iframe style="margin:0 10px" id="tutorial" src="https://www.youtube.com/embed/qtghzovnKQw" frameborder="5px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h3 style="padding:0 10px">Buttons:</h3>
+		<img src="buttons.png" width="50%" style="padding:0 10px"><br>
 
-<h3 style="padding:0 10px">View Options</h3>
-<img src="viewoptions.png" width="50%" style="padding:0 10px"><br>
-</div>
+		<h3 style="padding:0 10px">Keyboard Shortcuts:</h3>
+
+		<table class="tablestuff">
+			<tr>
+				<th>Function</th>
+				<th>Shortcut</th>
+			</tr>
+
+			<tr>
+				<td>Previous Image</td>
+				<td>Left Arrow</td>
+			</tr>
+
+			<tr>
+				<td>Next Image</td>
+				<td>Right Arrow</td>
+			</tr>
+
+			<tr>
+				<td>Open</td>
+				<td>Ctrl + O</td>
+			</tr>
+
+			<tr>
+				<td>Save</td>
+				<td>Ctrl + S</td>
+			</tr>
+
+			<tr>
+				<td>Exit</td>
+				<td>Esc</td>
+			</tr>
+
+			<tr>
+				<td>Reset Zoom</td>
+				<td>R</td>
+			</tr>
+
+			<tr>
+				<td>Translate Up</td>
+				<td>W</td>
+			</tr>
+
+			<tr>
+				<td>Translate Left</td>
+				<td>A</td>
+			</tr>
+
+			<tr>
+				<td>Translate Down</td>
+				<td>S</td>
+			</tr>
+
+			<tr>
+				<td>Translate Right</td>
+				<td>D</td>
+			</tr>
+
+			<tr>
+				<td>Flip Horizontally</td>
+				<td>K</td>
+			</tr>
+			
+			<tr>
+				<td>Flip Vertically</td>
+				<td>I</td>
+			</tr>
+
+			<tr>
+				<td>Rotate Left</td>
+				<td>J</td>
+			</tr>
+
+			<tr>
+				<td>Rotate Right</td>
+				<td>L</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<h3 style="padding:0 10px">View Options</h3>
+		<img src="viewoptions.png" width="50%" style="padding:0 10px"><br>
+	</div>
 
 <div class="footer" id="lost">
 <div class="footertext">

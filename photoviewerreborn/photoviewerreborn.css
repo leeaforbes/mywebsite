@@ -23,21 +23,6 @@
 	margin: 0 5%;
 }
 
-.tableboxpadding {
-	border: 1px solid black;
-	margin: 0 10px;
-}
-
-.tableboxpadding th {
-	padding: 10px;
-	border: 1px solid black;
-}
-
-.tableboxpadding td {
-	padding: 10px;
-	border: 1px solid black;
-}
-
 .navigation {
 	float: right;
 	margin: 10px;
@@ -117,7 +102,7 @@
 
 /*things tacked onto the front of all spans inside animatebutton*/
 .animatebutton span:before {
-	content: '\1f3e0';
+	content: '\1F98B';
 	position: absolute;
 	opacity: 0;
 	left: 0px;
@@ -129,6 +114,21 @@
 .animatebutton:hover span:before {
 	opacity: 1;
 	left: 20;
+}
+
+.tablestuff {
+	border: 1px solid black;
+	margin: 0 10px;
+}
+
+.tablestuff th {
+	border: 1px solid black;
+	margin: 0 10px;
+}
+
+.tablestuff td {
+	border: 1px solid black;
+	margin: 0 10px;
 }
 
 .bodycolor {
