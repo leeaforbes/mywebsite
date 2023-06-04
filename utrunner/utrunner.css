@@ -73,30 +73,6 @@ label.smallfuntext{
 	.sidenav a {font-size: 18px;}
 }
 
-/*general button properties*/
-.animatebutton {
-	border-radius: 100px;
-	background-color: #0FF;
-	border: 3px white solid;
-	color: black;
-	text-align: center;
-	font-size: 20px;
-	padding: 10px;
-	width: 200px;
-	margin: 10px
-}
-
-/*apply to all spans inside animatebutton*/
-.animatebutton span {
-	position: relative;
-	transition: 0.5s;
-}
-
-/*properties applied to all spans inside animatebutton on hover*/
-.animatebutton:hover span {
-	padding-left: 25px;
-}
-
 /*things tacked onto the front of all spans inside animatebutton*/
 .animatebutton span:before {
 	content: '\1f3c3';
@@ -105,12 +81,6 @@ label.smallfuntext{
 	left: 0px;
 	top: -3px;
 	transition: 0.5s;
-}
-
-/*properties applied to all things tacked onto the front of all spans inside animatebutton on hover*/
-.animatebutton:hover span:before {
-	opacity: 1;
-	left: 20;
 }
 
 /*popup stuff from w3*/
