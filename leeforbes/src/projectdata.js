@@ -38,7 +38,7 @@ const projectList = [
         name: "Photo Viewer Reborn",
         desc: [
             "A simple photo viewer for Windows",
-            "Faster and clearer images than Windows “Photos” app when created"
+            "Faster loading and clearer images than Windows “Photos” app when created"
         ],
         pic: pvrpic,
         skills: [
