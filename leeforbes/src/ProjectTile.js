@@ -5,7 +5,7 @@ const ProjectTile = ({project}) => {
 	return (
 		<div className="projecttile"
     >
-      <img src={project.pic} id='image'/>
+      <img src={project.pic} id='image' alt={project.name + " picture"}/>
 
       <div id='projectdescription'>
 

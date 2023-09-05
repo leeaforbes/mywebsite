@@ -5,7 +5,7 @@ const SkillTile = ({title}) => {
   // console.log("skilltile", title)
 	return (
 		<div className="skilltile">
-      <img src={skills[title].image} id='skillimage'/>
+      <img src={skills[title].image} id='skillimage' alt={title + " picture"}/>
 
       <div className='langname'>
         {title}
