@@ -1,3 +1,4 @@
+import React from 'react';
 import './Projects.css';
 import ProjectTile from './ProjectTile.js';
 import projectList from './projectdata'
@@ -17,7 +18,7 @@ const Projects = () => {
             </div>
             <div className="projects">
                 {projectList.map(p => (
-                    <ProjectTile key={p.name + "project"} title={p.name} desc={p.desc} pic={p.pic} skills={p.skills}/>
+                    <ProjectTile key={p.name} project={p}/>
                 ))}
             </div>
         </>

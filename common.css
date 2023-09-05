@@ -63,7 +63,7 @@
 }
 
 .footer {
-	background-image: url("../commonimages/gradient_flipped.png");
+	background-image: url("commonimages/gradient_flipped.png");
 	background-repeat: repeat-x;
 	background-size: 100% 100%;
 	height: 100px;

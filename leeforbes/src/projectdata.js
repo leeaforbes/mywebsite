@@ -20,7 +20,8 @@ const projectList = [
             "Swift",
             "UIKit",
             "Xcode"
-        ]
+        ],
+        link: "https://apps.apple.com/us/app/pedali/id6450684275"
     },
     {
         name: "UT Skate Spots Directory",
@@ -32,7 +33,8 @@ const projectList = [
         skills: [
             "HTML",
             "Python"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/utskatespots/"
     },
     {
         name: "Photo Viewer Reborn",
@@ -44,7 +46,8 @@ const projectList = [
         skills: [
             "C#",
             "Windows Forms"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/photoviewerreborn/photoviewerreborn.html"
     },
     {
         name: "My website",
@@ -56,7 +59,8 @@ const projectList = [
         skills: [
             "React",
             "JavaScript"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/"
     },
     {
         name: "Learning Java Lesson Sets",
@@ -67,7 +71,8 @@ const projectList = [
         pic: learningjavapic,
         skills: [
             "Java"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/learnjava/learnjava.html"
     },
     {
         name: "UTRunner",
@@ -78,7 +83,8 @@ const projectList = [
         skills: [
             "JavaScript",
             "Google Maps API"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/utrunner/utrunner.html"
     },
     {
         name: "Clickquick",
@@ -90,7 +96,8 @@ const projectList = [
         skills: [
             "Java",
             "Android Studio"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/clickquickstatus.html"
     },
     {
         name: "Minecraft Spigot Plugins",
@@ -102,7 +109,8 @@ const projectList = [
         skills: [
             "Java",
             "Spigot"
-        ]
+        ],
+        link: "https://github.com/stars/leeaforbes/lists/plugins"
     },
     {
         name: "Not So Super Smash",
@@ -113,7 +121,8 @@ const projectList = [
         pic: nssspic,
         skills: [
             "Java"
-        ]
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/ogsite/index_old.html"
     }
 ]
 

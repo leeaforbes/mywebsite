@@ -1,23 +1,24 @@
 import './ProjectTile.css';
 import SkillTile from './SkillTile';
 
-const ProjectTile = ({title, desc, pic, skills}) => {
-  // console.log(title, skills)
+const ProjectTile = ({project}) => {
 	return (
-		<div className="projecttile">
-
-      <img src={pic} id='image'/>
+		<div className="projecttile"
+    >
+      <img src={project.pic} id='image'/>
 
       <div id='projectdescription'>
 
         <div id='projecttitle'>
-          {title}
+          <a key={project.name + "link"} href={project.link}>
+            {project.name}
+          </a>
         </div>
         
         <div id='projectsubtitle'>
-          <ul className='d'>
-            {desc.map(element => (
-              <li className='graytext'>{element}</li>
+          <ul key={project.name + project.desc + "table"} className='d'>
+            {project.desc.map(element => (
+              <li key={element} className='graytext'>{element}</li>
             ))}
           </ul>
         </div>
@@ -26,8 +27,8 @@ const ProjectTile = ({title, desc, pic, skills}) => {
 
       <div id='lang'>
         <div id='skillslist'>
-          {skills.map(skill => (
-            <SkillTile key={title + skill} title={skill}/>
+          {project.skills.map(skill => (
+            <SkillTile key={project.name + skill} title={skill}/>
           ))}
         </div>
       </div>
