@@ -1,12 +1,12 @@
-import pedalipic from "./pedalilogo.png";
-import skatespotspic from "./leeskatepic.jpg";
-import pvrpic from "./butterflyflower.ico";
-import mywebsitepic from "./youarehere.jpg";
-import learningjavapic from "./javalogo.jpg";
-import utrunnerpic from "./utrunner.png";
-import clickquickpic from "./clickquicklogo.png";
-import mcpluginspic from "./spigotmclogo.png";
-import nssspic from "./bowboy.png";
+import pedalipic from "./projectpics/pedalilogo.png";
+import skatespotspic from "./projectpics/leeskatepic.jpg";
+import pvrpic from "./projectpics/butterflyflower.ico";
+import mywebsitepic from "./projectpics/youarehere.jpg";
+import learningjavapic from "./logos/javalogo.jpg";
+import utrunnerpic from "./projectpics/utrunner.png";
+import clickquickpic from "./projectpics/clickquicklogo.png";
+import mcpluginspic from "./logos/spigotmclogo.png";
+import nssspic from "./projectpics/bowboy.png";
 
 const projectList = [
     {

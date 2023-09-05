@@ -1,5 +1,4 @@
 import './Intro.css';
-import pic from './leeskatepic.jpg'
 
 const Intro = () => {
 	return (
