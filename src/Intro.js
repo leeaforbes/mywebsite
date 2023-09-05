@@ -1,4 +1,5 @@
 import './Intro.css';
+import Resume from "./Lee Forbes Resume.pdf"
 
 const Intro = () => {
 	return (
@@ -13,7 +14,7 @@ const Intro = () => {
 
 				<br/>
 				<br/>
-				My full resume is <a href="Lee Forbes Resume.pdf">here</a>.
+				My full resume is <a href={Resume} download={"Lee Forbes Resume"}>here</a>.
 				
 				<br/>
 				&emsp; &#128231; <a href = "mailto: lee.a.forbes@gmail.com">lee.a.forbes@gmail.com</a>

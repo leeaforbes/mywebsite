@@ -13,6 +13,7 @@ const ProjectTile = ({project}) => {
           <a key={project.name + "link"} href={project.link}>
             {project.name}
           </a>
+          
         </div>
         
         <div id='projectsubtitle'>

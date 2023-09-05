@@ -97,7 +97,7 @@ const projectList = [
             "Java",
             "Android Studio"
         ],
-        link: "https://leeaforbes.github.io/mywebsite/clickquickstatus.html"
+        link: "./clickquickstatus.html"
     },
     {
         name: "Minecraft Spigot Plugins",
