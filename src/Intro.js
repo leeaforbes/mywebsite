@@ -13,7 +13,7 @@ const Intro = () => {
 
 				<br/>
 				<br/>
-				My full resume is <a href="../Lee Forbes Resume.pdf">here</a>.
+				My full resume is <a href="Lee Forbes Resume.pdf">here</a>.
 				
 				<br/>
 				&emsp; &#128231; <a href = "mailto: lee.a.forbes@gmail.com">lee.a.forbes@gmail.com</a>
