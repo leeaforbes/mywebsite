@@ -1,6 +1,7 @@
 import './App.css';
 import Intro from './Intro'
 import Projects from './Projects';
+import SkillsDirectory from './SkillsDirectory';
 
 function App() {
   return (
@@ -8,31 +9,10 @@ function App() {
       <div className='middlebackground'>
         <Intro/>
         <br/>
-        <Projects />
         <br/>
+        <Projects/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
+        <SkillsDirectory/>
       </div>
     </div>
   );

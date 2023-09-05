@@ -2,7 +2,7 @@ import './ProjectTile.css';
 import SkillTile from './SkillTile';
 
 const ProjectTile = ({title, desc, pic, skills}) => {
-  console.log(title, skills)
+  // console.log(title, skills)
 	return (
 		<div className="projecttile">
 
@@ -27,7 +27,7 @@ const ProjectTile = ({title, desc, pic, skills}) => {
       <div id='lang'>
         <div id='skillslist'>
           {skills.map(skill => (
-            <SkillTile key={title + skill.title} title={skill}/>
+            <SkillTile key={title + skill} title={skill}/>
           ))}
         </div>
       </div>

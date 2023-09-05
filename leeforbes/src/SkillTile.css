@@ -1,8 +1,10 @@
 .skilltile{
-    background-color: #e0dede;
+    background-color: white;
     border-radius: 5px;
     display: flex;
-    padding: 5px
+    padding: 5px;
+
+    box-shadow: 1px 1px 3px 1px #e0dede;
 }
 
 #skillimage {
@@ -16,4 +18,5 @@
     /* align-content: center; */
     flex-direction: column;
     padding: 10px;
+    font-size: large;
 }
