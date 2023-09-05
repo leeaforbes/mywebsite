@@ -2,6 +2,7 @@ import './App.css';
 import Intro from './Intro'
 import Projects from './Projects';
 import SkillsDirectory from './SkillsDirectory';
+import SiteHistory from './SiteHistory';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Projects/>
         <br/>
         <SkillsDirectory/>
+        <br/>
+        <SiteHistory/>
       </div>
     </div>
   );
