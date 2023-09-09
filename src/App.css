@@ -1,9 +1,13 @@
 .background {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(aerial.jpeg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: round;
 }
 
 .middlebackground {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5de;
   max-width: 70vw;
   margin: auto;
   padding: 30px;
