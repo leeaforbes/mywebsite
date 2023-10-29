@@ -12,8 +12,10 @@ const projectList = [
     {
         name: "Pedali",
         desc: [
-            "Workout Interval iOS App",
-            "Top 200 in Paid Health and Fitness Category"
+            "An iOS app for creating custom workout intervals",
+            "Top 200 in Paid Health and Fitness Category",
+            "Developed with a friend to train for their 5K running goal"
+
         ],
         pic: pedalipic,
         skills: [
@@ -24,10 +26,26 @@ const projectList = [
         link: "https://apps.apple.com/us/app/pedali/id6450684275"
     },
     {
+        name: "My Website",
+        desc: [
+            "Hosted on GitHub Pages",
+            "Portfolio page and a history of my site",
+            "Maintained over many years as I learned web technologies"
+
+        ],
+        pic: mywebsitepic,
+        skills: [
+            "React",
+            "JavaScript"
+        ],
+        link: "https://leeaforbes.github.io/mywebsite/"
+    },
+    {
         name: "UT Skate Spots Directory",
         desc: [
             "A directory for skateboarders in the UT area to find places to skate",
-            "Includes notes/pictures about obstacles, lighting"
+            "Includes notes and pictures about obstacles, lighting, and traffic",
+            "Community building through information and public contribution"
         ],
         pic: skatespotspic,
         skills: [
@@ -39,8 +57,9 @@ const projectList = [
     {
         name: "Photo Viewer Reborn",
         desc: [
-            "A simple photo viewer for Windows",
-            "Faster loading and clearer images than Windows “Photos” app when created"
+            "A simple photo viewer using Windows Forms (.NET)",
+            "Faster loading and clearer images than the Windows “Photos” app when it was created"
+
         ],
         pic: pvrpic,
         skills: [
@@ -50,34 +69,10 @@ const projectList = [
         link: "https://leeaforbes.github.io/previouswebsite/photoviewerreborn/photoviewerreborn.html"
     },
     {
-        name: "My website",
-        desc: [
-            "A website about me that has some web projects on it and a history of my site",
-            "You are here."
-        ],
-        pic: mywebsitepic,
-        skills: [
-            "React",
-            "JavaScript"
-        ],
-        link: "https://leeaforbes.github.io/mywebsite/"
-    },
-    {
-        name: "Learning Java Lesson Sets",
-        desc: [
-            "I created a set of lessons for a beginner to learn Java",
-            "Includes everything from installing Java, setting up Eclipse IDE, example code, labs, and projects"
-        ],
-        pic: learningjavapic,
-        skills: [
-            "Java"
-        ],
-        link: "https://leeaforbes.github.io/previouswebsite/learnjava/learnjava.html"
-    },
-    {
         name: "UTRunner",
         desc: [
-            "Generates a loop to run in for the UT area given distance and starting point"
+            "Generates a loop to run in for the UT area given a distance and a starting point using the Google Maps API",
+            "Created to help a friend train for the Longhorn Run event"
         ],
         pic: utrunnerpic,
         skills: [
@@ -87,9 +82,35 @@ const projectList = [
         link: "https://leeaforbes.github.io/previouswebsite/utrunner/utrunner.html"
     },
     {
+        name: "Learning Java Lesson Sets",
+        desc: [
+            "I created a set of lessons for a beginner to learn Java",
+            "Includes installing Java, setting up Eclipse IDE, example code, labs, and projects"
+        ],
+        pic: learningjavapic,
+        skills: [
+            "Java"
+        ],
+        link: "https://leeaforbes.github.io/previouswebsite/learnjava/learnjava.html"
+    },
+    {
+        name: "Minecraft Plugins",
+        desc: [
+            "I created minigames, tools, and server management plugins that can be added to a Minecraft Spigot/Bukkit server",
+            "Major projects: Capture the Flag, Paintball, Hunger Games, Ultra Hardcore, Spleef",
+            "Created plugins for personal use and for freelance work"
+        ],
+        pic: mcpluginspic,
+        skills: [
+            "Java",
+            "Spigot"
+        ],
+        link: "https://github.com/stars/leeaforbes/lists/plugins"
+    },
+    {
         name: "Clickquick",
         desc: [
-            "An Android app deployed to the Google Play Store",
+            "An Android app published to the Google Play Store",
             "Click squares and race the clock to beat your time"
         ],
         pic: clickquickpic,
@@ -98,19 +119,6 @@ const projectList = [
             "Android Studio"
         ],
         link: "https://leeaforbes.github.io/previouswebsite/clickquickstatus.html"
-    },
-    {
-        name: "Minecraft Spigot Plugins",
-        desc: [
-            "I created many tool and minigame plugins that can be added to a Minecraft Spigot server",
-            "Major projects: Capture the Flag, Paintball, Hunger Games, Ultra Hardcore, Spleef"
-        ],
-        pic: mcpluginspic,
-        skills: [
-            "Java",
-            "Spigot"
-        ],
-        link: "https://github.com/stars/leeaforbes/lists/plugins"
     },
     {
         name: "Not So Super Smash",
