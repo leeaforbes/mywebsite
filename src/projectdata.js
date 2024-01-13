@@ -14,8 +14,9 @@ const projectList = [
         desc: [
             "An iOS app for creating custom workout intervals",
             "Top 200 in Paid Health and Fitness Category",
-            "Developed with a friend to train for their 5K running goal"
-
+            "Developed with a friend to train for their 5K running goal",
+            "Designed with Figma, then built in Xcode",
+            "Converting UIKit app to SwiftUI app"
         ],
         pic: pedalipic,
         skills: [
