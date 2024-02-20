@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.9c7ba0fa.css",
-    "main.js": "/mywebsite/static/js/main.5e5eee9a.js",
+    "main.js": "/mywebsite/static/js/main.64015e0d.js",
     "static/js/787.1f3a0756.chunk.js": "/mywebsite/static/js/787.1f3a0756.chunk.js",
     "static/media/aerial.jpeg": "/mywebsite/static/media/aerial.957c640d2535adc3ec3f.jpeg",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
@@ -28,7 +28,6 @@
     "static/media/latexlogo.png": "/mywebsite/static/media/latexlogo.96285419247cc528175d.png",
     "static/media/csslogo.png": "/mywebsite/static/media/csslogo.69c8fc91bd55aa57940e.png",
     "static/media/bootstraplogo.png": "/mywebsite/static/media/bootstraplogo.05490cce242a48597b10.png",
-    "static/media/windowsformslogo.png": "/mywebsite/static/media/windowsformslogo.2f7584e4ebd67e490144.png",
     "static/media/golanglogo.png": "/mywebsite/static/media/golanglogo.bf0615e2a64d7b135906.png",
     "static/media/spigotmclogo.png": "/mywebsite/static/media/spigotmclogo.9076b4118e1ad7e87e0b.png",
     "static/media/swiftlogo.jpg": "/mywebsite/static/media/swiftlogo.d0cf8dd3a99e6de3edc6.jpg",
@@ -46,11 +45,11 @@
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
     "main.9c7ba0fa.css.map": "/mywebsite/static/css/main.9c7ba0fa.css.map",
-    "main.5e5eee9a.js.map": "/mywebsite/static/js/main.5e5eee9a.js.map",
+    "main.64015e0d.js.map": "/mywebsite/static/js/main.64015e0d.js.map",
     "787.1f3a0756.chunk.js.map": "/mywebsite/static/js/787.1f3a0756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c7ba0fa.css",
-    "static/js/main.5e5eee9a.js"
+    "static/js/main.64015e0d.js"
   ]
 }
