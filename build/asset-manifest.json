@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.9c7ba0fa.css",
-    "main.js": "/mywebsite/static/js/main.64015e0d.js",
+    "main.css": "/mywebsite/static/css/main.3bd326f9.css",
+    "main.js": "/mywebsite/static/js/main.e608fee3.js",
     "static/js/787.1f3a0756.chunk.js": "/mywebsite/static/js/787.1f3a0756.chunk.js",
     "static/media/aerial.jpeg": "/mywebsite/static/media/aerial.957c640d2535adc3ec3f.jpeg",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
     "static/media/utrunner.png": "/mywebsite/static/media/utrunner.19a85e2b86ae27cfbe0a.png",
     "static/media/pedalilogo.png": "/mywebsite/static/media/pedalilogo.ffbb847a3907614253c1.png",
+    "static/media/utemblem.png": "/mywebsite/static/media/utemblem.f42ebc266afeb92c3e22.png",
     "static/media/androidstudiologo.png": "/mywebsite/static/media/androidstudiologo.4ac24da6bc5f21e12c17.png",
     "static/media/javalogo.jpg": "/mywebsite/static/media/javalogo.90d347356ba6a8e3508c.jpg",
     "static/media/reactlogo.png": "/mywebsite/static/media/reactlogo.b91904ce6c9d7c0f7eee.png",
@@ -36,6 +37,7 @@
     "static/media/clogo.png": "/mywebsite/static/media/clogo.376eb0a70cc5a46d7dc3.png",
     "static/media/youarehere.jpg": "/mywebsite/static/media/youarehere.8d9c42a3d0f290a1368b.jpg",
     "static/media/skyuxblackbaudlogo.png": "/mywebsite/static/media/skyuxblackbaudlogo.462d2ba5dbf035f359c0.png",
+    "static/media/sogetilogo.png": "/mywebsite/static/media/sogetilogo.f7a95d29680cb65edfcb.png",
     "static/media/clickquicklogo.png": "/mywebsite/static/media/clickquicklogo.ef35eb16ba893a8390aa.png",
     "static/media/sasslogo.png": "/mywebsite/static/media/sasslogo.43663f0dcd177e3d6f27.png",
     "static/media/firebaselogo.png": "/mywebsite/static/media/firebaselogo.66dc16a0c5d88163ffed.png",
@@ -44,12 +46,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.ca55677e15d681907cf884f749b9d5e1.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.9c7ba0fa.css.map": "/mywebsite/static/css/main.9c7ba0fa.css.map",
-    "main.64015e0d.js.map": "/mywebsite/static/js/main.64015e0d.js.map",
+    "main.3bd326f9.css.map": "/mywebsite/static/css/main.3bd326f9.css.map",
+    "main.e608fee3.js.map": "/mywebsite/static/js/main.e608fee3.js.map",
     "787.1f3a0756.chunk.js.map": "/mywebsite/static/js/787.1f3a0756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c7ba0fa.css",
-    "static/js/main.64015e0d.js"
+    "static/css/main.3bd326f9.css",
+    "static/js/main.e608fee3.js"
   ]
 }
