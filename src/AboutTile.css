@@ -1,0 +1,48 @@
+.abouttile{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+
+    box-shadow: 1px 1px 3px 1px #e0dede;
+}
+
+.aboutimage {
+    width: 75px;
+    height: 75px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    font-size: large;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    font-size: medium;
+    color: gray;
+}
+
+.textstack {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hobbieslist {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 8px;
+}
