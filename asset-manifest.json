@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.3bd326f9.css",
+    "main.css": "/mywebsite/static/css/main.fba5e23b.css",
     "main.js": "/mywebsite/static/js/main.e608fee3.js",
     "static/js/787.1f3a0756.chunk.js": "/mywebsite/static/js/787.1f3a0756.chunk.js",
     "static/media/aerial.jpeg": "/mywebsite/static/media/aerial.957c640d2535adc3ec3f.jpeg",
@@ -46,12 +46,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.ca55677e15d681907cf884f749b9d5e1.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.3bd326f9.css.map": "/mywebsite/static/css/main.3bd326f9.css.map",
+    "main.fba5e23b.css.map": "/mywebsite/static/css/main.fba5e23b.css.map",
     "main.e608fee3.js.map": "/mywebsite/static/js/main.e608fee3.js.map",
     "787.1f3a0756.chunk.js.map": "/mywebsite/static/js/787.1f3a0756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bd326f9.css",
+    "static/css/main.fba5e23b.css",
     "static/js/main.e608fee3.js"
   ]
 }
