@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.fba5e23b.css",
-    "main.js": "/mywebsite/static/js/main.0b2e5779.js",
+    "main.css": "/mywebsite/static/css/main.ec51726c.css",
+    "main.js": "/mywebsite/static/js/main.f6d6572a.js",
     "static/js/787.1f3a0756.chunk.js": "/mywebsite/static/js/787.1f3a0756.chunk.js",
     "static/media/aerial.jpeg": "/mywebsite/static/media/aerial.957c640d2535adc3ec3f.jpeg",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
@@ -46,12 +46,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.ca55677e15d681907cf884f749b9d5e1.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.fba5e23b.css.map": "/mywebsite/static/css/main.fba5e23b.css.map",
-    "main.0b2e5779.js.map": "/mywebsite/static/js/main.0b2e5779.js.map",
+    "main.ec51726c.css.map": "/mywebsite/static/css/main.ec51726c.css.map",
+    "main.f6d6572a.js.map": "/mywebsite/static/js/main.f6d6572a.js.map",
     "787.1f3a0756.chunk.js.map": "/mywebsite/static/js/787.1f3a0756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba5e23b.css",
-    "static/js/main.0b2e5779.js"
+    "static/css/main.ec51726c.css",
+    "static/js/main.f6d6572a.js"
   ]
 }
