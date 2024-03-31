@@ -13,7 +13,7 @@ const Projects = () => {
 
 	return (
         <>
-            <div className='title'>
+            <div className='projecttitle'>
                 Personal Projects
             </div>
             <div className="projects">
