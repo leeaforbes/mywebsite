@@ -10,7 +10,7 @@
 #titletext {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: calc(30px + 0.5vw);
 }
 
 #subtext {

@@ -12,18 +12,18 @@
     height: 75px;
 }
 
-.title {
+.abouttitle {
     display: flex;
     flex-direction: column;
     padding: 0px 5px;
-    font-size: large;
+    font-size: calc(15px + 0.390625vw);
 }
 
-.subtitle {
+.aboutsubtitle {
     display: flex;
     flex-direction: column;
     padding: 0px 5px;
-    font-size: medium;
+    font-size: calc(10px + 0.390625vw);
     color: gray;
 }
 

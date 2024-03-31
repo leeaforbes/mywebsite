@@ -6,11 +6,11 @@ const AboutTile = ({title, subtitle, imgname}) => {
       <img src={require("./aboutpics/" + imgname)} className="aboutimage" alt={title + " picture"}/>
 
       <div className='textstack'>
-        <div className='title'>
+        <div className='abouttitle'>
           {title}
         </div>
 
-        <div className='subtitle'>
+        <div className='aboutsubtitle'>
           {subtitle}
         </div>
       </div>

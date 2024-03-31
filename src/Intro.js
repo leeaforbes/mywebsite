@@ -18,7 +18,7 @@ const Intro = () => {
 
 				<br/>
 
-				<div class='hobbieslist'>
+				<div className='hobbieslist'>
 					<HobbyTile key="sbhobby" emoji="&#x1f6f9;" title="Skateboarding"/>
 					<HobbyTile key="frisbeehobby" emoji="&#129359;" title="Frisbee"/>
 					<HobbyTile key="spikehobby" emoji="&#127952;" title="Spikeball"/>
