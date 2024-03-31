@@ -20,6 +20,7 @@ const projectList = [
         ],
         pic: pedalipic,
         skills: [
+            "SwiftUI",
             "Swift",
             "UIKit",
             "Xcode"
