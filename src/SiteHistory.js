@@ -3,7 +3,7 @@ import './SiteHistory.css'
 const SiteHistory = () => {
 	return (
 		<>
-			<div className='title'>
+			<div className='projecttitle'>
 				Site History
 			</div>
 			<div className="sitehistory">

@@ -9,7 +9,7 @@ function SkillsDirectory() {
 
 	return (
 		<div>
-			<div className='title'>
+			<div className='projecttitle'>
 					Skills
 			</div>
 			<div className='skillsdirectory'>
