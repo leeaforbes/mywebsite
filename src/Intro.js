@@ -13,7 +13,7 @@ const Intro = () => {
 
 				<div className='aboutlist'>
 					<AboutTile key="UTCS Tile" title="University of Texas at Austin" subtitle="BS Computer Science 2023" imgname="utemblem.png"/>
-					<AboutTile key="Sogeti Tile" title="Sogeti of Capgemini" subtitle="Associate Consolutant" imgname="sogetilogo.png"/>
+					<AboutTile key="Sogeti Tile" title="Sogeti of Capgemini" subtitle="Associate Consultant" imgname="sogetilogo.png"/>
 				</div>
 
 				<br/>
