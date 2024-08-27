@@ -19,10 +19,11 @@ const Intro = () => {
 				<br/>
 
 				<div className='hobbieslist'>
+					<HobbyTile key="codinghobby" emoji="&#x1f4bb;" title="Software Projects"/>
 					<HobbyTile key="sbhobby" emoji="&#x1f6f9;" title="Skateboarding"/>
 					<HobbyTile key="frisbeehobby" emoji="&#129359;" title="Frisbee"/>
 					<HobbyTile key="spikehobby" emoji="&#127952;" title="Spikeball"/>
-					<HobbyTile key="codinghobby" emoji="&#x1f4bb;" title="Software Projects"/>
+					<HobbyTile key="picklehobby" emoji="&#129362;" title="Pickleball"/>
 				</div>
 
 				<div id='subtext'>
