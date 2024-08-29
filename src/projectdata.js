@@ -70,7 +70,7 @@ const projectList = [
             "C#",
             "Windows Forms"
         ],
-        link: "https://leeaforbes.github.io/previouswebsite/photoviewerreborn/photoviewerreborn.html"
+        link: "https://leeaforbes.github.io/previouswebsite/photoviewerreborn.html"
     },
     {
         name: "UTRunner",
@@ -83,7 +83,7 @@ const projectList = [
             "Google Maps API",
             "JavaScript"
         ],
-        link: "https://leeaforbes.github.io/previouswebsite/utrunner/utrunner.html"
+        link: "https://leeaforbes.github.io/previouswebsite/utrunner.html"
     },
     {
         name: "Learning Java Lesson Sets",
@@ -95,7 +95,7 @@ const projectList = [
         skills: [
             "Java"
         ],
-        link: "https://leeaforbes.github.io/previouswebsite/learnjava/learnjava.html"
+        link: "https://leeaforbes.github.io/previouswebsite/learnjava.html"
     },
     {
         name: "Minecraft Plugins",
@@ -134,7 +134,7 @@ const projectList = [
         skills: [
             "Java"
         ],
-        link: "https://leeaforbes.github.io/previouswebsite/ogsite/index_old.html"
+        link: "https://leeaforbes.github.io/previouswebsite/index_old.html"
     }
 ]
 
