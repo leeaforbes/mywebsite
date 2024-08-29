@@ -12,11 +12,12 @@ const projectList = [
     {
         name: "Pedali",
         desc: [
-            "An iOS app for creating custom workout intervals",
+            "iOS app for custom workout intervals",
+            "Converted from UIKit to SwiftUI",
+            "Developed with a friend to achieve their 5K running goal",
             "Top 200 in Paid Health and Fitness Category",
-            "Developed with a friend to train for their 5K running goal",
-            "Designed with Figma, then built in Xcode",
-            "Converting UIKit app to SwiftUI app"
+            "Designed with Figma, built in Xcode"
+
         ],
         pic: pedalipic,
         skills: [
@@ -33,25 +34,27 @@ const projectList = [
             "Hosted on GitHub Pages",
             "Portfolio page and a history of my site",
             "Maintained over many years as I learned web technologies"
-
         ],
         pic: mywebsitepic,
         skills: [
             "React",
-            "JavaScript"
+            "JavaScript",
+            "CSS",
+            "HTML"
         ],
         link: "https://leeaforbes.github.io/mywebsite/"
     },
     {
         name: "UT Skate Spots Directory",
         desc: [
-            "A directory for skateboarders in the UT area to find places to skate",
-            "Includes notes and pictures about obstacles, lighting, and traffic",
+            "Directory for skateboarders in the UT area to find places to skate",
+            "Notes and pictures about obstacles, lighting, and traffic",
             "Community building through information and public contribution"
         ],
         pic: skatespotspic,
         skills: [
             "HTML",
+            "CSS",
             "Python"
         ],
         link: "https://leeaforbes.github.io/utskatespots/"
@@ -59,9 +62,8 @@ const projectList = [
     {
         name: "Photo Viewer Reborn",
         desc: [
-            "A simple photo viewer using Windows Forms (.NET)",
-            "Faster loading and clearer images than the Windows “Photos” app when it was created"
-
+            "Simple photo viewer using Windows Forms (.NET)",
+            "Faster loading and clearer images than the Windows “Photos” app"
         ],
         pic: pvrpic,
         skills: [
@@ -73,20 +75,20 @@ const projectList = [
     {
         name: "UTRunner",
         desc: [
-            "Generates a loop to run in for the UT area given a distance and a starting point using the Google Maps API",
+            "Generates a loop to run in the UT area using the Google Maps API",
             "Created to help a friend train for the Longhorn Run event"
         ],
         pic: utrunnerpic,
         skills: [
-            "JavaScript",
-            "Google Maps API"
+            "Google Maps API",
+            "JavaScript"
         ],
         link: "https://leeaforbes.github.io/previouswebsite/utrunner/utrunner.html"
     },
     {
         name: "Learning Java Lesson Sets",
         desc: [
-            "I created a set of lessons for a beginner to learn Java",
+            "Created a set of lessons for a beginner to learn Java",
             "Includes installing Java, setting up Eclipse IDE, example code, labs, and projects"
         ],
         pic: learningjavapic,
@@ -98,9 +100,9 @@ const projectList = [
     {
         name: "Minecraft Plugins",
         desc: [
-            "I created minigames, tools, and server management plugins that can be added to a Minecraft Spigot/Bukkit server",
-            "Major projects: Capture the Flag, Paintball, Hunger Games, Ultra Hardcore, Spleef",
-            "Created plugins for personal use and for freelance work"
+            "Created minigames, tools, and server management",
+            "Capture the Flag, Paintball, Hunger Games, Ultra Hardcore, Spleef",
+            "Personal use and for freelance work"
         ],
         pic: mcpluginspic,
         skills: [
@@ -125,7 +127,7 @@ const projectList = [
     {
         name: "Not So Super Smash",
         desc: [
-            "A platform fighting game made in Java",
+            "Platform fighting game made in Java",
             "Pick your character, battle your friends, and try not to fall!"
         ],
         pic: nssspic,
