@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.ec51726c.css",
-    "main.js": "/mywebsite/static/js/main.6611e9df.js",
+    "main.css": "/mywebsite/static/css/main.b648d34a.css",
+    "main.js": "/mywebsite/static/js/main.efa1177f.js",
     "static/js/453.82a19aa0.chunk.js": "/mywebsite/static/js/453.82a19aa0.chunk.js",
-    "static/media/aerial.jpeg": "/mywebsite/static/media/aerial.957c640d2535adc3ec3f.jpeg",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
     "static/media/utrunner.png": "/mywebsite/static/media/utrunner.19a85e2b86ae27cfbe0a.png",
+    "static/media/aerial_blurred.jpeg": "/mywebsite/static/media/aerial_blurred.b49d40f0118c1704dd50.jpeg",
     "static/media/pedalilogo.png": "/mywebsite/static/media/pedalilogo.ffbb847a3907614253c1.png",
     "static/media/utemblem.png": "/mywebsite/static/media/utemblem.f42ebc266afeb92c3e22.png",
     "static/media/androidstudiologo.png": "/mywebsite/static/media/androidstudiologo.4ac24da6bc5f21e12c17.png",
@@ -46,12 +46,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.8b0d58bbddbc6fe483fea443c0d1f0f8.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.ec51726c.css.map": "/mywebsite/static/css/main.ec51726c.css.map",
-    "main.6611e9df.js.map": "/mywebsite/static/js/main.6611e9df.js.map",
+    "main.b648d34a.css.map": "/mywebsite/static/css/main.b648d34a.css.map",
+    "main.efa1177f.js.map": "/mywebsite/static/js/main.efa1177f.js.map",
     "453.82a19aa0.chunk.js.map": "/mywebsite/static/js/453.82a19aa0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec51726c.css",
-    "static/js/main.6611e9df.js"
+    "static/css/main.b648d34a.css",
+    "static/js/main.efa1177f.js"
   ]
 }
