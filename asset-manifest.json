@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.ef151acd.css",
-    "main.js": "/mywebsite/static/js/main.b47bb0a6.js",
-    "static/js/453.b890d4b7.chunk.js": "/mywebsite/static/js/453.b890d4b7.chunk.js",
+    "main.css": "/mywebsite/static/css/main.1fe26381.css",
+    "main.js": "/mywebsite/static/js/main.ab6fafb4.js",
+    "static/js/453.82a19aa0.chunk.js": "/mywebsite/static/js/453.82a19aa0.chunk.js",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
     "static/media/utrunner.png": "/mywebsite/static/media/utrunner.19a85e2b86ae27cfbe0a.png",
     "static/media/aerial_blurred.jpeg": "/mywebsite/static/media/aerial_blurred.b49d40f0118c1704dd50.jpeg",
@@ -36,10 +36,8 @@
     "static/media/csharplogo.png": "/mywebsite/static/media/csharplogo.26d62e2578e58fab1c4f.png",
     "static/media/clogo.png": "/mywebsite/static/media/clogo.376eb0a70cc5a46d7dc3.png",
     "static/media/youarehere.jpg": "/mywebsite/static/media/youarehere.8d9c42a3d0f290a1368b.jpg",
-    "static/media/skyuxblackbaudlogo.png": "/mywebsite/static/media/skyuxblackbaudlogo.462d2ba5dbf035f359c0.png",
     "static/media/awslogo.webp": "/mywebsite/static/media/awslogo.16800c2f18455528630b.webp",
     "static/media/sogetilogo.png": "/mywebsite/static/media/sogetilogo.f7a95d29680cb65edfcb.png",
-    "static/media/clickquicklogo.png": "/mywebsite/static/media/clickquicklogo.ef35eb16ba893a8390aa.png",
     "static/media/sasslogo.png": "/mywebsite/static/media/sasslogo.43663f0dcd177e3d6f27.png",
     "static/media/firebaselogo.png": "/mywebsite/static/media/firebaselogo.66dc16a0c5d88163ffed.png",
     "static/media/postgresqllogo.svg": "/mywebsite/static/media/postgresqllogo.e407ebb120aa171a7512a371dda497b5.svg",
@@ -47,12 +45,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.8b0d58bbddbc6fe483fea443c0d1f0f8.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.ef151acd.css.map": "/mywebsite/static/css/main.ef151acd.css.map",
-    "main.b47bb0a6.js.map": "/mywebsite/static/js/main.b47bb0a6.js.map",
-    "453.b890d4b7.chunk.js.map": "/mywebsite/static/js/453.b890d4b7.chunk.js.map"
+    "main.1fe26381.css.map": "/mywebsite/static/css/main.1fe26381.css.map",
+    "main.ab6fafb4.js.map": "/mywebsite/static/js/main.ab6fafb4.js.map",
+    "453.82a19aa0.chunk.js.map": "/mywebsite/static/js/453.82a19aa0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef151acd.css",
-    "static/js/main.b47bb0a6.js"
+    "static/css/main.1fe26381.css",
+    "static/js/main.ab6fafb4.js"
   ]
 }
