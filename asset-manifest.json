@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.1fe26381.css",
-    "main.js": "/mywebsite/static/js/main.ab6fafb4.js",
-    "static/js/453.82a19aa0.chunk.js": "/mywebsite/static/js/453.82a19aa0.chunk.js",
+    "main.js": "/mywebsite/static/js/main.1f0f5f7b.js",
+    "static/js/453.b890d4b7.chunk.js": "/mywebsite/static/js/453.b890d4b7.chunk.js",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
     "static/media/utrunner.png": "/mywebsite/static/media/utrunner.19a85e2b86ae27cfbe0a.png",
     "static/media/aerial_blurred.jpeg": "/mywebsite/static/media/aerial_blurred.b49d40f0118c1704dd50.jpeg",
     "static/media/pedalilogo.png": "/mywebsite/static/media/pedalilogo.ffbb847a3907614253c1.png",
+    "static/media/robinlogo.png": "/mywebsite/static/media/robinlogo.e2392697bb82907683e0.png",
     "static/media/utemblem.png": "/mywebsite/static/media/utemblem.f42ebc266afeb92c3e22.png",
     "static/media/androidstudiologo.png": "/mywebsite/static/media/androidstudiologo.4ac24da6bc5f21e12c17.png",
     "static/media/javalogo.jpg": "/mywebsite/static/media/javalogo.90d347356ba6a8e3508c.jpg",
@@ -31,6 +32,7 @@
     "static/media/bootstraplogo.png": "/mywebsite/static/media/bootstraplogo.05490cce242a48597b10.png",
     "static/media/golanglogo.png": "/mywebsite/static/media/golanglogo.bf0615e2a64d7b135906.png",
     "static/media/spigotmclogo.png": "/mywebsite/static/media/spigotmclogo.9076b4118e1ad7e87e0b.png",
+    "static/media/spritekitlogo.png": "/mywebsite/static/media/spritekitlogo.8d3f0d46e6b84e03c00d.png",
     "static/media/swiftlogo.jpg": "/mywebsite/static/media/swiftlogo.d0cf8dd3a99e6de3edc6.jpg",
     "static/media/javascriptlogo.png": "/mywebsite/static/media/javascriptlogo.062825dbceed44567e91.png",
     "static/media/csharplogo.png": "/mywebsite/static/media/csharplogo.26d62e2578e58fab1c4f.png",
@@ -46,11 +48,11 @@
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
     "main.1fe26381.css.map": "/mywebsite/static/css/main.1fe26381.css.map",
-    "main.ab6fafb4.js.map": "/mywebsite/static/js/main.ab6fafb4.js.map",
-    "453.82a19aa0.chunk.js.map": "/mywebsite/static/js/453.82a19aa0.chunk.js.map"
+    "main.1f0f5f7b.js.map": "/mywebsite/static/js/main.1f0f5f7b.js.map",
+    "453.b890d4b7.chunk.js.map": "/mywebsite/static/js/453.b890d4b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fe26381.css",
-    "static/js/main.ab6fafb4.js"
+    "static/js/main.1f0f5f7b.js"
   ]
 }
