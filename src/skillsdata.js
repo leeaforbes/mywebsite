@@ -35,8 +35,16 @@ import nodejslogo from "./logos/nodejslogo.png"
 import wondersharefilmoralogo from "./logos/wondersharefilmoralogo.png"
 import audacitylogo from "./logos/audacitylogo.png"
 import skyuxlogo from "./logos/skyuxblackbaudlogo.png"
+import awslogo from "./logos/awslogo.webp"
+import terraformlogo from "./logos/terraformlogo.png"
 
 const skills = {
+    "Terraform" : {
+        image : terraformlogo
+    },
+    "AWS" : {
+        image: awslogo
+    },
     "Java": {
         image: javalogo
     },

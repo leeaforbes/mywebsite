@@ -1,6 +1,6 @@
 .skilltile{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     padding: 5px;
 
@@ -9,6 +9,7 @@
 
 #skillimage {
     height: calc(35px + 0.390625vw);
+    border-radius: 5px;
     width: auto;
     /* min-height: 10px;
     min-width: 10px; */
