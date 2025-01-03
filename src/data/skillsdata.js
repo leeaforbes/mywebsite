@@ -35,6 +35,7 @@ import wondersharefilmoralogo from "../logos/wondersharefilmoralogo.png"
 import audacitylogo from "../logos/audacitylogo.png"
 import awslogo from "../logos/awslogo.webp"
 import terraformlogo from "../logos/terraformlogo.png"
+import spritekitlogo from "../logos/spritekitlogo.png"
 
 const skills = {
     "Terraform" : {
@@ -90,6 +91,9 @@ const skills = {
     },
     "SwiftUI": {
         image: swiftuilogo
+    },
+    "SpriteKit": {
+        image: spritekitlogo
     },
     "Angular": {
         image: angularlogo
