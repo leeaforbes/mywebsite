@@ -10,6 +10,12 @@
     width: auto;
 
     box-shadow: 5px 5px 5px 1px #e0dede;
+    transition: margin 250ms ease-out 0ms
+}
+
+.projecttile:hover {
+    margin: 20px -20px;
+    cursor: pointer;
 }
 
 .projectdescription {

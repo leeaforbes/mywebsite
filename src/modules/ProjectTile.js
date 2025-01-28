@@ -3,7 +3,12 @@ import SkillTile from '../modules/SkillTile';
 
 const ProjectTile = ({project}) => {
 	return (
-		<div className="projecttile">
+		<div className="projecttile"
+    onClick={() => {
+      // window.location.href=project.link;
+      window.open(project.link, '_blank').focus();
+    }}
+    >
       <img src={project.pic} className='image' alt={project.name + " picture"}/>
 
       <div className='projectdescription'>
@@ -11,7 +16,6 @@ const ProjectTile = ({project}) => {
           <a key={project.name + "link"} href={project.link}>
             {project.name}
           </a>
-          
         </div>
         
         <div className='projectsubtitle'>

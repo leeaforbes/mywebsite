@@ -5,7 +5,12 @@
     padding: 5px;
 
     box-shadow: 1px 1px 3px 1px #e0dede;
+    /* transition: padding 250ms ease-out 0ms; */
 }
+
+/* .skilltile:hover {
+    padding: 10px;
+} */
 
 .skillimage {
     height: calc(35px + 0.390625vw);
