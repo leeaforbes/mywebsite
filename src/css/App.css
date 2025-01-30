@@ -1,9 +1,9 @@
 .background {
   /* background-color: white; */
   background-image: url(../background/aerial_blurred.jpeg);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
-  background-repeat: round;
 }
 
 .middlebackground {
