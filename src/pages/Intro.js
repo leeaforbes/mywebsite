@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap';
 import '../css/Intro.css';
 import Resume from "../files/Lee Forbes Resume.pdf"
 import AboutTile from "../modules/AboutTile";
@@ -20,20 +21,26 @@ const Intro = () => {
 
 				<div className='hobbieslist'>
 					<HobbyTile key="codinghobby" emoji="&#x1f4bb;" title="Software Projects"/>
-					<HobbyTile key="sbhobby" emoji="&#x1f6f9;" title="Skateboarding"/>
-					<HobbyTile key="frisbeehobby" emoji="&#129359;" title="Frisbee"/>
+					<HobbyTile key="frisbeehobby" emoji="&#129359;" title="Ultimate"/>
 					<HobbyTile key="spikehobby" emoji="&#127952;" title="Spikeball"/>
+					<HobbyTile key="sbhobby" emoji="&#x1f6f9;" title="Skateboarding"/>
 					<HobbyTile key="picklehobby" emoji="&#129362;" title="Pickleball"/>
 				</div>
 
-				<div className='subtext'>
-				{/* I recently start working as a consultant at Sogeti after graduating from UT Austin with a BS in Computer Science. My hobbies are skateboarding, ultimate frisbee, Spikeball, and software projects. I have had the honor to work at Omni Flow Computers, Blackbaud, iD Tech, Vans, Cane's, Sogeti, and [your company can be here too]. */}
+				<br/>
 
-				<br/>
-				My full resume is <a href={Resume} download={"Lee Forbes Resume"}>here</a>.
-				
-				<br/>
-				&emsp; &#128231; <a href="mailto: lee.a.forbes@gmail.com">lee.a.forbes@gmail.com</a>
+				<div className='info'>
+					<a href={Resume} download={"Lee Forbes Resume"}>
+						<button class="resume">
+							📄 Resume
+						</button>
+					</a>
+
+					<a href="mailto: lee.a.forbes@gmail.com">
+						<button class="email">
+							📧 lee.a.forbes@gmail.com
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
