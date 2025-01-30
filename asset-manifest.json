@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.1d7cf068.css",
+    "main.css": "/mywebsite/static/css/main.f6166750.css",
     "main.js": "/mywebsite/static/js/main.a5283958.js",
     "static/js/453.b890d4b7.chunk.js": "/mywebsite/static/js/453.b890d4b7.chunk.js",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
@@ -47,12 +47,12 @@
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.8b0d58bbddbc6fe483fea443c0d1f0f8.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.1d7cf068.css.map": "/mywebsite/static/css/main.1d7cf068.css.map",
+    "main.f6166750.css.map": "/mywebsite/static/css/main.f6166750.css.map",
     "main.a5283958.js.map": "/mywebsite/static/js/main.a5283958.js.map",
     "453.b890d4b7.chunk.js.map": "/mywebsite/static/js/453.b890d4b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d7cf068.css",
+    "static/css/main.f6166750.css",
     "static/js/main.a5283958.js"
   ]
 }
