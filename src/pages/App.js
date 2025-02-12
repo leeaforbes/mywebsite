@@ -11,7 +11,7 @@ function App() {
         <Intro/>
         <br/>
         <br/>
-        <Projects/>
+          <Projects/>
         <br/>
         <SkillsDirectory/>
         <br/>

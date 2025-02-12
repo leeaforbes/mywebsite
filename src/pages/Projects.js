@@ -1,27 +1,39 @@
 import React from 'react';
 import '../css/Projects.css';
-import ProjectTile from '../modules/ProjectTile.js';
+import ProjectTile from '../components/ProjectTile.js';
 import projectList from '../data/projectdata'
+import { SoundContext } from '../contexts/SoundContext'
+import { useState } from 'react';
 
 const Projects = () => {
-
-    // console.log(projectList[0].name)
-    // console.log(projectList.length)
-    // projectList.map(e => {
-    //     console.log(e.name)
-    // })
+  const [sounds, setSounds] = useState(false);
 
 	return (
-        <>
-            <div className='projecttitle'>
-                Personal Projects
-            </div>
-            <div className="projects">
-                {projectList.map(p => (
-                    <ProjectTile key={p.name} project={p}/>
-                ))}
-            </div>
-        </>
+		<>
+			<div className='flexrow'>
+				<div className='projecttitle'>
+						Personal Projects
+				</div>
+
+				<div className='flexrow left'>
+					<div className='center'>
+						Sound
+					</div>
+					<label className='switch'>
+						<input type='checkbox' onClick={() => {setSounds(!sounds)}} />
+						<span class="slider"></span>
+					</label>
+				</div>
+			</div>
+
+			<SoundContext.Provider value={sounds}>
+				<div className="projects">
+					{projectList.map(p => (
+						<ProjectTile key={p.name} project={p}/>
+					))}
+				</div>
+			</SoundContext.Provider>
+		</>
 	)
 };
 

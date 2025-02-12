@@ -1,13 +1,32 @@
 import '../css/ProjectTile.css';
-import SkillTile from '../modules/SkillTile';
+import SkillTile from '../components/SkillTile';
+import useSound from 'use-sound'
+import mySound from '../sounds/hint.wav'
+import { useContext } from 'react';
+import { SoundContext } from '../contexts/SoundContext';
 
 const ProjectTile = ({project}) => {
+  const [playSound] = useSound(mySound, { volume: 0.05 })
+  const sounds = useContext(SoundContext);
+
+  function onMouseEnter() {
+    if(sounds === true){
+      playSound()
+    }
+  }
+
+  function onClick() {
+    // window.location.href=project.link;
+    if(sounds === true){
+      playSound()
+    }
+    window.open(project.link, '_blank').focus();
+  }
+
 	return (
 		<div className="projecttile"
-    onClick={() => {
-      // window.location.href=project.link;
-      window.open(project.link, '_blank').focus();
-    }}
+    onClick={onClick}
+    onMouseEnter={onMouseEnter}
     >
       <img src={project.pic} className='image' alt={project.name + " picture"}/>
 

@@ -1,5 +1,5 @@
 import "../css/SkillsDirectory.css"
-import SkillTile from "../modules/SkillTile";
+import SkillTile from "../components/SkillTile";
 import skills from "../data/skillsdata";
 
 function SkillsDirectory() {

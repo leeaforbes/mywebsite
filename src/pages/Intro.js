@@ -1,8 +1,7 @@
-import { Button } from 'bootstrap';
 import '../css/Intro.css';
 import Resume from "../files/Lee Forbes Resume.pdf"
-import AboutTile from "../modules/AboutTile";
-import HobbyTile from "../modules/HobbyTile";
+import AboutTile from "../components/AboutTile";
+import HobbyTile from "../components/HobbyTile";
 
 const Intro = () => {
 	return (
@@ -11,6 +10,8 @@ const Intro = () => {
 				<div className='titletext'>
 					Lee Forbes
 				</div>
+
+				<br/>
 
 				<div className='aboutlist'>
 					<AboutTile key="Sogeti Tile" title="Sogeti of Capgemini" subtitle="Associate Consultant" imgname="sogetilogo.png"/>
@@ -31,13 +32,13 @@ const Intro = () => {
 
 				<div className='info'>
 					<a href={Resume} download={"Lee Forbes Resume"}>
-						<button class="resume">
+						<button className="resume">
 							📄 Resume
 						</button>
 					</a>
 
 					<a href="mailto: lee.a.forbes@gmail.com">
-						<button class="email">
+						<button className="email">
 							📧 lee.a.forbes@gmail.com
 						</button>
 					</a>
