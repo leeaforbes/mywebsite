@@ -11,7 +11,6 @@ import pythonlogo from "../logos/pythonlogo.png"
 import latexlogo from "../logos/latexlogo.png"
 import sqllogo from "../logos/sqllogo.png"
 import clojurelogo from "../logos/clojurelogo.png"
-import golanglogo from "../logos/golanglogo.png"
 import uikitlogo from "../logos/uikitlogo.jpeg"
 import swiftuilogo from "../logos/swiftuilogo.png"
 import angularlogo from "../logos/angularlogo.png"
@@ -19,7 +18,6 @@ import azurelogo from "../logos/azurelogo.svg"
 import spigotlogo from "../logos/spigotmclogo.png"
 import xamarinlogo from "../logos/xamarinlogo.svg"
 import dotnetlogo from "../logos/dotnetlogo.jpg"
-import postgresqllogo from "../logos/postgresqllogo.svg"
 import reactlogo from "../logos/reactlogo.png"
 import firebaselogo from "../logos/firebaselogo.png"
 import xcodelogo from "../logos/xcodelogo.png"
@@ -83,9 +81,6 @@ const skills = {
     "Clojure": {
         image: clojurelogo
     },
-    "Golang": {
-        image: golanglogo
-    },
     "UIKit": {
         image: uikitlogo
     },
@@ -109,9 +104,6 @@ const skills = {
     },
     ".NET": {
         image: dotnetlogo
-    },
-    "PostgreSQL": {
-        image: postgresqllogo
     },
     "React": {
         image: reactlogo
