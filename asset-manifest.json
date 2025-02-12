@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.f6166750.css",
-    "main.js": "/mywebsite/static/js/main.a5283958.js",
+    "main.css": "/mywebsite/static/css/main.a3758368.css",
+    "main.js": "/mywebsite/static/js/main.a616a301.js",
+    "static/js/885.d6531e7f.chunk.js": "/mywebsite/static/js/885.d6531e7f.chunk.js",
     "static/js/453.b890d4b7.chunk.js": "/mywebsite/static/js/453.b890d4b7.chunk.js",
     "static/media/audacitylogo.png": "/mywebsite/static/media/audacitylogo.2928daf7595881944ea9.png",
     "static/media/utrunner.png": "/mywebsite/static/media/utrunner.19a85e2b86ae27cfbe0a.png",
@@ -28,9 +29,9 @@
     "static/media/typescriptlogo.png": "/mywebsite/static/media/typescriptlogo.659e4b9351cf1baa6930.png",
     "static/media/sqllogo.png": "/mywebsite/static/media/sqllogo.d5b8f100c48e3e604981.png",
     "static/media/latexlogo.png": "/mywebsite/static/media/latexlogo.96285419247cc528175d.png",
+    "static/media/hint.wav": "/mywebsite/static/media/hint.9fd5c4fa369314d3d3b0.wav",
     "static/media/csslogo.png": "/mywebsite/static/media/csslogo.69c8fc91bd55aa57940e.png",
     "static/media/bootstraplogo.png": "/mywebsite/static/media/bootstraplogo.05490cce242a48597b10.png",
-    "static/media/golanglogo.png": "/mywebsite/static/media/golanglogo.bf0615e2a64d7b135906.png",
     "static/media/spigotmclogo.png": "/mywebsite/static/media/spigotmclogo.9076b4118e1ad7e87e0b.png",
     "static/media/spritekitlogo.png": "/mywebsite/static/media/spritekitlogo.8d3f0d46e6b84e03c00d.png",
     "static/media/swiftlogo.jpg": "/mywebsite/static/media/swiftlogo.d0cf8dd3a99e6de3edc6.jpg",
@@ -42,17 +43,17 @@
     "static/media/sogetilogo.png": "/mywebsite/static/media/sogetilogo.f7a95d29680cb65edfcb.png",
     "static/media/sasslogo.png": "/mywebsite/static/media/sasslogo.43663f0dcd177e3d6f27.png",
     "static/media/firebaselogo.png": "/mywebsite/static/media/firebaselogo.66dc16a0c5d88163ffed.png",
-    "static/media/postgresqllogo.svg": "/mywebsite/static/media/postgresqllogo.e407ebb120aa171a7512a371dda497b5.svg",
     "static/media/butterflyflower.ico": "/mywebsite/static/media/butterflyflower.ef4c98c74a74f9345cd1.ico",
     "static/media/xamarinlogo.svg": "/mywebsite/static/media/xamarinlogo.8b0d58bbddbc6fe483fea443c0d1f0f8.svg",
     "index.html": "/mywebsite/index.html",
     "static/media/azurelogo.svg": "/mywebsite/static/media/azurelogo.16afec27c7001da4be828a235f2ed2ce.svg",
-    "main.f6166750.css.map": "/mywebsite/static/css/main.f6166750.css.map",
-    "main.a5283958.js.map": "/mywebsite/static/js/main.a5283958.js.map",
+    "main.a3758368.css.map": "/mywebsite/static/css/main.a3758368.css.map",
+    "main.a616a301.js.map": "/mywebsite/static/js/main.a616a301.js.map",
+    "885.d6531e7f.chunk.js.map": "/mywebsite/static/js/885.d6531e7f.chunk.js.map",
     "453.b890d4b7.chunk.js.map": "/mywebsite/static/js/453.b890d4b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6166750.css",
-    "static/js/main.a5283958.js"
+    "static/css/main.a3758368.css",
+    "static/js/main.a616a301.js"
   ]
 }
