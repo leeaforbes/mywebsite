@@ -6,13 +6,13 @@ import { SoundContext } from '../contexts/SoundContext'
 import { useState } from 'react';
 
 const Projects = () => {
-  const [sounds, setSounds] = useState(false);
+	const [sounds, setSounds] = useState(false);
 
 	return (
 		<>
 			<div className='flexrow'>
 				<div className='projecttitle'>
-						Personal Projects
+					Personal Projects
 				</div>
 
 				<div className='flexrow left'>
@@ -20,8 +20,8 @@ const Projects = () => {
 						Sound
 					</div>
 					<label className='switch'>
-						<input type='checkbox' onClick={() => {setSounds(!sounds)}} />
-						<span class="slider"></span>
+						<input type='checkbox' onClick={() => { setSounds(!sounds) }} />
+						<span className="slider"></span>
 					</label>
 				</div>
 			</div>
@@ -29,7 +29,7 @@ const Projects = () => {
 			<SoundContext.Provider value={sounds}>
 				<div className="projects">
 					{projectList.map(p => (
-						<ProjectTile key={p.name} project={p}/>
+						<ProjectTile key={p.name} project={p} />
 					))}
 				</div>
 			</SoundContext.Provider>

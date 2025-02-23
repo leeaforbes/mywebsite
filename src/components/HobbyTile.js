@@ -1,10 +1,10 @@
 import '../css/HobbyTile.css';
 
-const HobbyTile = ({emoji, title}) => {
+const HobbyTile = (props) => {
 	return (
 	  <div className="hobbytile">
 			<div className='hobbytitle'>
-				{emoji} {title}
+				{props.emoji} {props.title}
 			</div>
 		</div>
 	)

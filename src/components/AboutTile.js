@@ -1,17 +1,17 @@
 import '../css/AboutTile.css';
 
-const AboutTile = ({title, subtitle, imgname}) => {
+const AboutTile = (props) => {
 	return (
 	  <div className="abouttile">
-      <img src={require("../aboutpics/" + imgname)} className="aboutimage" alt={title + " picture"}/>
+      <img src={require("../aboutpics/" + props.imgname)} className="aboutimage" alt={props.title + " picture"}/>
 
       <div className='textstack'>
         <div className='abouttitle'>
-          {title}
+          {props.title}
         </div>
 
         <div className='aboutsubtitle'>
-          {subtitle}
+          {props.subtitle}
         </div>
       </div>
 		</div>
